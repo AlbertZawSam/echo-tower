@@ -1,0 +1,22 @@
+{
+  "name": "midterm-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/rules.test.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "submit": "node tools/submit.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.21"
+  },
+  "type": "module"
+}
